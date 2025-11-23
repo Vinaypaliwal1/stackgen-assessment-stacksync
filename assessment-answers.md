@@ -56,20 +56,20 @@ Make sure you have access to your project in **StackBuilder**.
 
 After reviewing the validator errors, use the following corrected metadata block:
 
----
-description: Explain how to set up and monitor StackSync AI Connector in StackBuilder.
-title: StackSync AI Connector
-read_time: '4 min read'
-customFields:
-  ai_index: true
-  clusters:
-    - appStack
-    - cloud2code
-audience:
-  - developer
-  - DevOps
-product_version: '1.0'
----
+  ```yaml
+  description: Explain how to set up and monitor StackSync AI Connector in StackBuilder.
+  title: StackSync AI Connector
+  read_time: '4 min read'
+  customFields:
+    ai_index: true
+    clusters:
+      - appStack
+      - cloud2code
+  audience:
+    - developer
+    - DevOps
+  product_version: '1.0'
+  ```
 
 
 ## Explanation
@@ -87,13 +87,11 @@ product_version: '1.0'
 # Task 4 – Prioritization Slack Message
 
 ```
-I’ll prioritize in the following order: 
+I’ll prioritize in the following order:
 
 1) Fix October metadata errors (1 hr) — release blocker.  
-
 2) Update MCP internal links (2 hr) — prevents broken navigation.  
-
-3) Draft AI-Validator guide (3 hr) — important but not blocking release.  
+3) Draft AI-Validator guide (3 hr) — important but not blocking release.
 
 Please let me know if any task needs a different priority.
 ```
