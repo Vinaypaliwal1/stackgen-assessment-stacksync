@@ -79,20 +79,20 @@ product_version: '1.0'
 
 3. Example minimal `metadata.json`:
 
-```json
-{
-"name": "example-stack",
-"version": "1.0.0",
-"ai_index": true,
-"clusters": ["appStack", "cloud2code"]
-}
-```
+   ```json
+   {
+   "name": "example-stack",
+   "version": "1.0.0",
+   "ai_index": true,
+   "clusters": ["appStack", "cloud2code"]
+   }
+   ```
 
 3. If validation fails:
 
-  - Confirm `ai_index` exists and is a boolean.
-  - Confirm `clusters` exist and contain at least one cluster name.
-  - Re-run the push or re-trigger the webhook.
+   - Confirm `ai_index` exists and is a boolean.
+   - Confirm `clusters` exist and contain at least one cluster name.
+   - Re-run the push or re-trigger the webhook.
 
 
 ### Sync failures
