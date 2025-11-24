@@ -10,9 +10,9 @@ You can start the sync yourself through **StackBuilder**, and you can also check
 
 ### How it fits into your workflow
 
-- **appStack** → where your settings come from
-- **Cloud2Code** → where your AI tools use those settings
-- **StackBuilder** → where you start a sync and check its status
+- **appStack** — where your settings come from
+- **Cloud2Code** — where your AI tools use those settings
+- **StackBuilder** — where you start a sync and check its status
 
 
 ## Set Up and Usage
