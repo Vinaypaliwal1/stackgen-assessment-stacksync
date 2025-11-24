@@ -77,7 +77,7 @@ product_version: '1.0'
         - `ai_index` (boolean)
         - `clusters` (array)
 
-3. Example minimal `metadata.json`:
+2. Example minimal `metadata.json`:
 
    ```json
    {
